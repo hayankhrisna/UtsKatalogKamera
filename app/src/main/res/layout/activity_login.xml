@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/kamera" />
+
+    <EditText
+        android:layout_width="322dp"
+        android:layout_height="64dp"
+        android:textAlignment="center"
+        android:hint="Masukkan Username..."
+        android:id="@+id/txtnama"
+        tools:layout_editor_absoluteY="134dp"
+        tools:layout_editor_absoluteX="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/logo"
+        android:layout_alignLeft="@+id/txtpass"
+        android:layout_alignStart="@+id/txtpass"
+        android:background="#d67601"/>
+    <EditText
+        android:layout_width="319dp"
+        android:layout_height="56dp"
+        android:textAlignment="center"
+        android:hint="Masukkan Password..."
+        android:id="@+id/txtpass"
+        tools:layout_editor_absoluteY="218dp"
+        tools:layout_editor_absoluteX="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/txtnama"
+        android:layout_centerHorizontal="true"
+        android:background="#d67601"/>
+    <Button
+        android:text="LOGIN"
+        android:layout_width="136dp"
+        android:layout_height="55dp"
+        android:id="@+id/btnlogin"
+        android:background="#d67601"
+        tools:layout_editor_absoluteY="314dp"
+        tools:layout_editor_absoluteX="124dp"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/txtpass"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
